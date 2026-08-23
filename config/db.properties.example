@@ -1,0 +1,14 @@
+# Copy this file as db.properties and put your own MySQL password
+
+db.url=jdbc:mysql://localhost:3306/sunrise_clinic?useSSL=false&serverTimezone=Asia/Colombo
+db.user=root
+db.password=your_mysql_password
+
+server.port=8080
+server.host=localhost
+
+clinic.taxRate=0.02
+clinic.seniorDiscount=0.10
+clinic.emergencyCharge=1500
+
+session.timeout=30
